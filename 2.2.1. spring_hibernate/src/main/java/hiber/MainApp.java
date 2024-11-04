@@ -37,7 +37,6 @@ public class MainApp {
 
         User user = userService.userCar("Model3", 3);
         System.out.println(user);
-        context.close();
 
         context.close();
     }
